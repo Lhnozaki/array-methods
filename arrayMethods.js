@@ -23,3 +23,11 @@ nameArray.push("Lewis", "Nozaki");
 genericNumberArray.push(6, 7, 8, 9, 10);
 
 let popResult = colors.pop();
+
+scrambledWords.reverse();
+phoneNumber.reverse();
+
+let nextOrder = orderQueue.shift();
+
+mixedNums.sort();
+mixedWords.sort();
