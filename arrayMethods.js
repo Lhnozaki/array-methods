@@ -50,3 +50,9 @@ let orderedValuesNewLength = orderedValues.length;
 
 let randomThingsArray = genericNumberArray.concat(colors);
 let updatedOrders = orderQueue.concat({ takeOut: "pizza"}, { takeOut: "salad"});
+
+let sentence = scrambledWords.join(" ");
+let myFruits = fruitCollection.join(" + ");
+
+let favoriteFriends = friends.slice(1, 3);
+let owesMoney = friends.slice(3);
