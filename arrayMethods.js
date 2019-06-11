@@ -31,3 +31,16 @@ let nextOrder = orderQueue.shift();
 
 mixedNums.sort();
 mixedWords.sort();
+
+let notFruit = fruitCollection.splice(1, 3);
+
+gemBox.splice(5, 2);
+gemBox.splice(6, 4);
+
+upToTen.push(3, 4, 5, 6, 7, 8)
+upToTen.sort();
+upToTen.splice(1, 1);
+upToTen.push(10);
+
+brownOnly.splice(1, 5);
+brownOnly.push("brown", "brown", "brown");
