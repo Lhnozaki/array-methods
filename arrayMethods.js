@@ -44,3 +44,9 @@ upToTen.push(10);
 
 brownOnly.splice(1, 5);
 brownOnly.push("brown", "brown", "brown");
+
+orderedValues.unshift(1, 2, 3);
+let orderedValuesNewLength = orderedValues.length;
+
+let randomThingsArray = genericNumberArray.concat(colors);
+let updatedOrders = orderQueue.concat({ takeOut: "pizza"}, { takeOut: "salad"});
