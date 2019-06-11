@@ -56,3 +56,11 @@ let myFruits = fruitCollection.join(" + ");
 
 let favoriteFriends = friends.slice(1, 3);
 let owesMoney = friends.slice(3);
+
+let monthNameString = monthNames.toString();
+
+let favoriteColor = colors.indexOf("Red");
+let favoriteEvenNumber = mixedNums.indexOf(76);
+
+let lastNine = bulkNumbers.lastIndexOf(9);
+let lastFive = bulkNumbers.lastIndexOf(5);
